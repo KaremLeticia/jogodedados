@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+html, body { 
+    --color-1:#59394E;
+    --color-2: #0D0E26; 
+    --color-3: #56588C; 
+    --color-4: #656B8C; 
+    --color-5: #ffffff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+.p1{
+    font-size: 'Roboto', sans-serif;
+    color: #56588C;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+
+body {
+    padding-top: 50px;
+    background-image: linear-gradient(135deg, var(--color-1) , var(--color-2));
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    height: 100vh;
+    color: black;
+}
+
+.container {
+    
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    background-color: #656B8C;
+    border-radius: 10px;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 40px;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mensagens{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.dice {
+    border-radius: 10px;
+    width:50px;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin: 0 auto;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    color: #656B8C;
+    padding: 20px 30px;
+    font-size: 20px; 
+    margin: 40px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rollBtn {
+    background-color:#656B8C;
+}
+
+#resetBtn {
+    background-color: #656B8C;
+    
+}
+
+button:focus {
+    outline: none;
+}
+
+#resetBtn {
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
